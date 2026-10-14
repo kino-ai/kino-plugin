@@ -1,0 +1,21 @@
+{
+  "name": "kino",
+  "version": "0.1.0",
+  "description": "Connect your agent to Kino for media asset management, video editing, motion graphics, and shareable review links (Kino Pro).",
+  "author": {
+    "name": "Kino AI",
+    "email": "hello@kino.ai",
+    "url": "https://kino.ai"
+  },
+  "homepage": "https://kino.ai",
+  "repository": "https://github.com/kino-ai/kino-plugin",
+  "keywords": [
+    "kino",
+    "video",
+    "video-editing",
+    "timeline",
+    "motion-graphics",
+    "mcp"
+  ],
+  "license": "Apache-2.0"
+}

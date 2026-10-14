@@ -1,0 +1,43 @@
+{
+  "name": "kino",
+  "version": "0.1.0",
+  "description": "Connect your agent to Kino for media asset management, video editing, motion graphics, and shareable review links (Kino Pro).",
+  "author": {
+    "name": "Kino AI",
+    "email": "hello@kino.ai",
+    "url": "https://kino.ai"
+  },
+  "homepage": "https://kino.ai",
+  "repository": "https://github.com/kino-ai/kino-plugin",
+  "keywords": [
+    "kino",
+    "video",
+    "video-editing",
+    "timeline",
+    "motion-graphics",
+    "mcp"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Kino",
+    "shortDescription": "Manage media, edit video, and share review links with Kino",
+    "longDescription": "Connect your agent to Kino, a media asset manager and video editor. Organize and search footage, edit timelines, create motion graphics, export video, and create shareable review links with Kino Pro. Requires the Kino desktop app running on the same computer as the agent, on macOS, Windows, or Linux.",
+    "developerName": "Kino AI",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://kino.ai",
+    "defaultPrompt": [
+      "List my recent Kino projects",
+      "Find the best clips of me talking about the launch",
+      "Cut a 30 second highlight reel from this footage",
+      "Add animated captions to my timeline"
+    ],
+    "brandColor": "#0E9FFF",
+    "composerIcon": "./assets/kino.png",
+    "logo": "./assets/kino.png"
+  },
+  "license": "Apache-2.0"
+}

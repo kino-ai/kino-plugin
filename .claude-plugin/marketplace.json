@@ -1,0 +1,16 @@
+{
+  "name": "kino-plugin",
+  "owner": {
+    "name": "Kino AI",
+    "email": "hello@kino.ai"
+  },
+  "metadata": {
+    "description": "Connect your agent to Kino for media asset management, video editing, motion graphics, and shareable review links (Kino Pro)."
+  },
+  "plugins": [
+    {
+      "name": "kino",
+      "source": "./"
+    }
+  ]
+}
